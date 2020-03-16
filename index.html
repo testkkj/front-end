@@ -1,28 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Testkkj</title>
     <link rel="stylesheet" href="css/reset.css">
     <style>
-        h1{
-            font-size: 32px;
-            margin-bottom: 16px;
+        .container {
+            width: 1280px;
+            margin: auto;
+            position: relative;
         }
-        ol{
-            font-size: 24px;
-            margin-bottom: 16px;
+        .nav{
+            background-color: red;
+            height: 50px;
+        }
+        .left{
+            background-color: green;
+            width: 70%;
+            position: relative;
+        }
+        .right{
+            background-color: blue;
+            width: 30%;
+            position: relative;
         }
     </style>
 </head>
+
 <body>
-    <h1>HTML / CSS / JAVASCRIPT</h1>
-    <ol>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JAVASCRIPT</li>
-    </ol>
-    <p>처음부터 시작해 보는 프론트 엔드 연습용 깃허브 페이지</p>
+    <div class="nav">
+        navigation
+    </div>
+    <div class="container">
+        <div class="left">
+            mainside
+        </div>
+        <div class="right">
+            sidemenu
+        </div>
+    </div>
 </body>
+
 </html>
