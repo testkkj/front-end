@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <style>
+        body {
+            font-size: 16px;
+            margin: 0 auto;
+        }
+
+        .top {
+            position: relative;
+            height: 50px;
+            font-size: 1.5em;
+        }
+
+        .top>ul {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            overflow: hidden;
+        }
+
+        .top>ul>li {
+            float: left;
+            margin-right: 10px;
+        }
+
+        .top>ul>li>button {
+            border-radius: 5px;
+        }
+
+        .mid {
+            position: relative;
+            width: 1200px;
+            height: 500px;
+        }
+
+        .mid>img {
+            position: absolute;
+            top: 30%;
+            left: 50%;
+        }
+
+        .mid>input {
+            position: absolute;
+            top: 65%;
+            left: 50%;
+            width: 250px;
+        }
+
+        .mid>div>button:first-child {
+            position: absolute;
+            top: 75%;
+            left: 50%;
+            border-radius: 5px;
+        }
+
+        .mid>div>button:last-child {
+            position: absolute;
+            top: 75%;
+            left: 60%;
+            border-radius: 5px;
+        }
+
+        .bottom {
+            position: relative;
+            height: 50px;
+        }
+
+        .bottom>div {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+
+        .footer {
+            position: relative;
+            height: 50px;
+        }
+
+        .footer>div>.left {
+            overflow: hidden;
+            display: inline-block;
+        }
+
+        .footer>div>.left>li {
+            float: left;
+            margin-left: 10px;
+        }
+
+        .footer>div>.right {
+            overflow: hidden;
+            display: inline-block;
+            float: right;
+        }
+
+        .footer>div>.right>li {
+            float: left;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="top">
+        <ul>
+            <li><a href="#">Gmail</a></li>
+            <li><a href="">이미지</a></li>
+            <li><button>로그인</button></li>
+        </ul>
+    </div>
+    <div class="mid">
+        <img src="https://via.placeholder.com/250x150" alt="">
+        <input type="text">
+        <div>
+            <button>Google 검색</button>
+            <button>I'm Feeling Lucky</button>
+        </div>
+    </div>
+    <div class="bottom">
+        <div>대한민국</div>
+    </div>
+    <div class="footer">
+        <div>
+            <ul class="left">
+                <li>광고</li>
+                <li>비즈니스</li>
+                <li>Google</li>
+                <li>정보</li>
+                <li>검색의 원리</li>
+            </ul>
+            <ul class="right">
+                <li>개인정보처리방침</li>
+                <li>약관</li>
+                <li>설정</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
